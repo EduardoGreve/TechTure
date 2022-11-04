@@ -7,3 +7,5 @@ C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.csproj.GenerateResou
 C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.csproj.CoreCompileInputs.cache
 C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.exe
 C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.pdb
+C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.frmLogin.resources
+C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.csproj.AssemblyReference.cache
