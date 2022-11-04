@@ -43,6 +43,7 @@ namespace TechTure
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegistro = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -204,11 +205,28 @@ namespace TechTure
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(379, 453);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(185, 23);
+            this.linkLabel1.TabIndex = 42;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "< Voltar para Login";
+            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // frmCadastro
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
             this.ClientSize = new System.Drawing.Size(593, 513);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.btnRegistro);
             this.Controls.Add(this.pictureBox1);
@@ -248,5 +266,6 @@ namespace TechTure
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnRegistro;
         private System.Windows.Forms.Button btnFechar;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

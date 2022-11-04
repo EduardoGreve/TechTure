@@ -17,6 +17,14 @@ namespace TechTure
             InitializeComponent();
         }
 
-      
+        private void button20_Click(object sender, EventArgs e)
+        {
+            frmPrincipal principal = new frmPrincipal();
+            principal.Hide();
+           
+            frmLogin login = new frmLogin();
+            login.Show();
+            this.Hide();
+        }
     }
 }
