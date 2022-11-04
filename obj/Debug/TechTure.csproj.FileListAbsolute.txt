@@ -1,0 +1,9 @@
+C:\Users\eduar\Desktop\TechTure\TechTure\bin\Debug\TechTure.exe.config
+C:\Users\eduar\Desktop\TechTure\TechTure\bin\Debug\TechTure.exe
+C:\Users\eduar\Desktop\TechTure\TechTure\bin\Debug\TechTure.pdb
+C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.frmPrincipal.resources
+C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.Properties.Resources.resources
+C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.csproj.GenerateResource.cache
+C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.exe
+C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.pdb
