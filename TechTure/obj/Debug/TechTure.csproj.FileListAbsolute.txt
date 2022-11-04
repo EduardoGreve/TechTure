@@ -31,3 +31,4 @@ C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.csproj.Gene
 C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.csproj.CoreCompileInputs.cache
 C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.exe
 C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.pdb
+C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.frmCadastro.resources

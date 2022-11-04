@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace TechTure
 {
-    public partial class frmPrincipal : Form
+    public partial class frmCadastro : Form
     {
-        public frmPrincipal()
+        public frmCadastro()
         {
             InitializeComponent();
         }
 
-      
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

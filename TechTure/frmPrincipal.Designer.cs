@@ -30,8 +30,8 @@ namespace TechTure
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -82,6 +82,29 @@ namespace TechTure
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabServico = new System.Windows.Forms.TabControl();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.label50 = new System.Windows.Forms.Label();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.button16 = new System.Windows.Forms.Button();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.tabCondominios = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabClientes = new System.Windows.Forms.TabControl();
             this.pageClientes = new System.Windows.Forms.TabPage();
@@ -97,6 +120,38 @@ namespace TechTure
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pageCadastro = new System.Windows.Forms.TabPage();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
@@ -130,39 +185,51 @@ namespace TechTure
             this.label2 = new System.Windows.Forms.Label();
             this.tabProjeto = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.label39 = new System.Windows.Forms.Label();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.label53 = new System.Windows.Forms.Label();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.label52 = new System.Windows.Forms.Label();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.label54 = new System.Windows.Forms.Label();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.label60 = new System.Windows.Forms.Label();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewLinkColumn1 = new System.Windows.Forms.DataGridViewLinkColumn();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewComboBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewLinkColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage7.SuspendLayout();
@@ -174,6 +241,11 @@ namespace TechTure
             this.panel5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabPage5.SuspendLayout();
+            this.tabServico.SuspendLayout();
+            this.tabPage9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            this.tabCondominios.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabClientes.SuspendLayout();
             this.pageClientes.SuspendLayout();
@@ -184,6 +256,7 @@ namespace TechTure
             this.tabProjeto.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -202,12 +275,13 @@ namespace TechTure
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(82, 11);
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.label16.Location = new System.Drawing.Point(14, 37);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(56, 13);
+            this.label16.Size = new System.Drawing.Size(112, 23);
             this.label16.TabIndex = 23;
-            this.label16.Text = "USUÁRIO";
+            this.label16.Text = "<USUÁRIO>";
             // 
             // label15
             // 
@@ -220,13 +294,13 @@ namespace TechTure
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.Location = new System.Drawing.Point(3, 9);
+            this.label14.Location = new System.Drawing.Point(12, 9);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(60, 16);
+            this.label14.Size = new System.Drawing.Size(133, 19);
             this.label14.TabIndex = 21;
-            this.label14.Text = "Usuário:";
+            this.label14.Text = "Usuário Logado:";
             // 
             // pictureBox1
             // 
@@ -735,13 +809,298 @@ namespace TechTure
             // 
             // tabPage5
             // 
+            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.tabPage5.Controls.Add(this.tabServico);
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(994, 614);
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "SERVIÇOS";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // tabServico
+            // 
+            this.tabServico.Controls.Add(this.tabPage9);
+            this.tabServico.Controls.Add(this.tabCondominios);
+            this.tabServico.ItemSize = new System.Drawing.Size(250, 25);
+            this.tabServico.Location = new System.Drawing.Point(3, 3);
+            this.tabServico.Name = "tabServico";
+            this.tabServico.SelectedIndex = 0;
+            this.tabServico.Size = new System.Drawing.Size(988, 608);
+            this.tabServico.TabIndex = 0;
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.textBox30);
+            this.tabPage9.Controls.Add(this.label51);
+            this.tabPage9.Controls.Add(this.textBox26);
+            this.tabPage9.Controls.Add(this.label50);
+            this.tabPage9.Controls.Add(this.textBox24);
+            this.tabPage9.Controls.Add(this.label49);
+            this.tabPage9.Controls.Add(this.comboBox8);
+            this.tabPage9.Controls.Add(this.textBox29);
+            this.tabPage9.Controls.Add(this.label47);
+            this.tabPage9.Controls.Add(this.button14);
+            this.tabPage9.Controls.Add(this.button15);
+            this.tabPage9.Controls.Add(this.dataGridView3);
+            this.tabPage9.Controls.Add(this.textBox25);
+            this.tabPage9.Controls.Add(this.button16);
+            this.tabPage9.Controls.Add(this.textBox27);
+            this.tabPage9.Controls.Add(this.textBox28);
+            this.tabPage9.Controls.Add(this.label43);
+            this.tabPage9.Controls.Add(this.label44);
+            this.tabPage9.Controls.Add(this.label45);
+            this.tabPage9.Controls.Add(this.label46);
+            this.tabPage9.Location = new System.Drawing.Point(4, 29);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(980, 575);
+            this.tabPage9.TabIndex = 1;
+            this.tabPage9.Text = "CONDOMÍNIOS";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // textBox30
+            // 
+            this.textBox30.Location = new System.Drawing.Point(641, 91);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(122, 23);
+            this.textBox30.TabIndex = 77;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.Location = new System.Drawing.Point(506, 91);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(129, 19);
+            this.label51.TabIndex = 76;
+            this.label51.Text = "Recuo Posterior:";
+            // 
+            // textBox26
+            // 
+            this.textBox26.Location = new System.Drawing.Point(367, 91);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(122, 23);
+            this.textBox26.TabIndex = 75;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.Location = new System.Drawing.Point(243, 91);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(118, 19);
+            this.label50.TabIndex = 74;
+            this.label50.Text = "Recuo Lateral:";
+            // 
+            // textBox24
+            // 
+            this.textBox24.Location = new System.Drawing.Point(128, 90);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(109, 23);
+            this.textBox24.TabIndex = 73;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.Location = new System.Drawing.Point(12, 91);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(118, 19);
+            this.label49.TabIndex = 72;
+            this.label49.Text = "Recuo Frontal:";
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "MATERIAL DE CONSTRUÇÃO",
+            "ENCANADOR",
+            "ELETRICISTA",
+            "EMPREITEIRA",
+            "SERRALHERIA",
+            "MARCENARIA",
+            ""});
+            this.comboBox8.Location = new System.Drawing.Point(128, 51);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(242, 24);
+            this.comboBox8.TabIndex = 71;
+            // 
+            // textBox29
+            // 
+            this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox29.Location = new System.Drawing.Point(19, 202);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(321, 23);
+            this.textBox29.TabIndex = 70;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Location = new System.Drawing.Point(15, 180);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(181, 19);
+            this.label47.TabIndex = 69;
+            this.label47.Text = "PESQUISAR CONDOMÍNIO";
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.Maroon;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button14.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.ForeColor = System.Drawing.Color.White;
+            this.button14.Location = new System.Drawing.Point(338, 130);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(136, 30);
+            this.button14.TabIndex = 68;
+            this.button14.Text = "EXCLUIR";
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button15.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.ForeColor = System.Drawing.Color.White;
+            this.button15.Location = new System.Drawing.Point(178, 130);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(136, 30);
+            this.button15.TabIndex = 67;
+            this.button15.Text = "EDITAR";
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.AllowUserToDeleteRows = false;
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(205)))), ((int)(((byte)(219)))));
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewComboBoxColumn3,
+            this.dataGridViewTextBoxColumn5,
+            this.Column3,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.Column1,
+            this.Column2});
+            this.dataGridView3.Location = new System.Drawing.Point(19, 243);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowHeadersWidth = 51;
+            this.dataGridView3.Size = new System.Drawing.Size(942, 315);
+            this.dataGridView3.TabIndex = 62;
+            // 
+            // textBox25
+            // 
+            this.textBox25.Location = new System.Drawing.Point(196, 12);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(463, 23);
+            this.textBox25.TabIndex = 61;
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.ForestGreen;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button16.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.ForeColor = System.Drawing.Color.White;
+            this.button16.Location = new System.Drawing.Point(16, 130);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(136, 30);
+            this.button16.TabIndex = 60;
+            this.button16.Text = "ADICIONAR";
+            this.button16.UseVisualStyleBackColor = false;
+            // 
+            // textBox27
+            // 
+            this.textBox27.Location = new System.Drawing.Point(743, 12);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(218, 23);
+            this.textBox27.TabIndex = 56;
+            // 
+            // textBox28
+            // 
+            this.textBox28.Location = new System.Drawing.Point(476, 51);
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(287, 23);
+            this.textBox28.TabIndex = 55;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(665, 16);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(72, 19);
+            this.label43.TabIndex = 54;
+            this.label43.Text = "Cidade:";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(18, 51);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(112, 19);
+            this.label44.TabIndex = 53;
+            this.label44.Text = "Zoneamento:";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(396, 51);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(78, 19);
+            this.label45.TabIndex = 52;
+            this.label45.Text = "Telefone:";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Location = new System.Drawing.Point(10, 13);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(187, 19);
+            this.label46.TabIndex = 51;
+            this.label46.Text = "Nome do Condomínio:";
+            // 
+            // tabCondominios
+            // 
+            this.tabCondominios.Controls.Add(this.label62);
+            this.tabCondominios.Controls.Add(this.label61);
+            this.tabCondominios.Controls.Add(this.textBox39);
+            this.tabCondominios.Controls.Add(this.label60);
+            this.tabCondominios.Controls.Add(this.textBox38);
+            this.tabCondominios.Controls.Add(this.label59);
+            this.tabCondominios.Controls.Add(this.textBox36);
+            this.tabCondominios.Controls.Add(this.label57);
+            this.tabCondominios.Controls.Add(this.textBox37);
+            this.tabCondominios.Controls.Add(this.label58);
+            this.tabCondominios.Controls.Add(this.button17);
+            this.tabCondominios.Controls.Add(this.button18);
+            this.tabCondominios.Controls.Add(this.button19);
+            this.tabCondominios.Controls.Add(this.textBox35);
+            this.tabCondominios.Controls.Add(this.label56);
+            this.tabCondominios.Controls.Add(this.textBox31);
+            this.tabCondominios.Controls.Add(this.label52);
+            this.tabCondominios.Controls.Add(this.textBox33);
+            this.tabCondominios.Controls.Add(this.label54);
+            this.tabCondominios.Controls.Add(this.textBox34);
+            this.tabCondominios.Controls.Add(this.label55);
+            this.tabCondominios.Controls.Add(this.dataGridView4);
+            this.tabCondominios.Controls.Add(this.textBox32);
+            this.tabCondominios.Controls.Add(this.label53);
+            this.tabCondominios.Location = new System.Drawing.Point(4, 29);
+            this.tabCondominios.Name = "tabCondominios";
+            this.tabCondominios.Padding = new System.Windows.Forms.Padding(3);
+            this.tabCondominios.Size = new System.Drawing.Size(980, 575);
+            this.tabCondominios.TabIndex = 0;
+            this.tabCondominios.Text = "ZONEAMENTOS";
+            this.tabCondominios.UseVisualStyleBackColor = true;
             // 
             // tabPage4
             // 
@@ -816,9 +1175,9 @@ namespace TechTure
             // dataGridViewComboBoxColumn1
             // 
             this.dataGridViewComboBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewComboBoxColumn1.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewComboBoxColumn1.DefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridViewComboBoxColumn1.HeaderText = "TELEFONE";
             this.dataGridViewComboBoxColumn1.MinimumWidth = 6;
             this.dataGridViewComboBoxColumn1.Name = "dataGridViewComboBoxColumn1";
@@ -964,6 +1323,323 @@ namespace TechTure
             this.pageCadastro.Size = new System.Drawing.Size(980, 575);
             this.pageCadastro.TabIndex = 0;
             this.pageCadastro.Text = "CADASTRO";
+            // 
+            // textBox23
+            // 
+            this.textBox23.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox23.Location = new System.Drawing.Point(144, 251);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(822, 26);
+            this.textBox23.TabIndex = 100;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(6, 253);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(138, 19);
+            this.label39.TabIndex = 99;
+            this.label39.Text = "Nome dos Filhos:";
+            // 
+            // textBox22
+            // 
+            this.textBox22.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox22.Location = new System.Drawing.Point(144, 207);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(822, 26);
+            this.textBox22.TabIndex = 98;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(6, 209);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(132, 19);
+            this.label38.TabIndex = 97;
+            this.label38.Text = "Nome Cônjuge:";
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "MATERIAL DE CONSTRUÇÃO",
+            "ENCANADOR",
+            "ELETRICISTA",
+            "EMPREITEIRA",
+            "SERRALHERIA",
+            "MARCENARIA",
+            ""});
+            this.comboBox7.Location = new System.Drawing.Point(760, 163);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(206, 24);
+            this.comboBox7.TabIndex = 96;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(672, 163);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(82, 19);
+            this.label37.TabIndex = 95;
+            this.label37.Text = "Quantos?";
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "MATERIAL DE CONSTRUÇÃO",
+            "ENCANADOR",
+            "ELETRICISTA",
+            "EMPREITEIRA",
+            "SERRALHERIA",
+            "MARCENARIA",
+            ""});
+            this.comboBox6.Location = new System.Drawing.Point(458, 163);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(199, 24);
+            this.comboBox6.TabIndex = 94;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(343, 163);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(109, 19);
+            this.label36.TabIndex = 93;
+            this.label36.Text = "Possui Filhos?";
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "MATERIAL DE CONSTRUÇÃO",
+            "ENCANADOR",
+            "ELETRICISTA",
+            "EMPREITEIRA",
+            "SERRALHERIA",
+            "MARCENARIA",
+            ""});
+            this.comboBox5.Location = new System.Drawing.Point(112, 163);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(209, 24);
+            this.comboBox5.TabIndex = 92;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(6, 163);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(100, 19);
+            this.label35.TabIndex = 91;
+            this.label35.Text = "Estado Civil:";
+            // 
+            // textBox21
+            // 
+            this.textBox21.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox21.Location = new System.Drawing.Point(735, 453);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(231, 26);
+            this.textBox21.TabIndex = 90;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(687, 457);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(42, 19);
+            this.label34.TabIndex = 89;
+            this.label34.Text = "CEP:";
+            // 
+            // textBox20
+            // 
+            this.textBox20.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox20.Location = new System.Drawing.Point(735, 329);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(231, 26);
+            this.textBox20.TabIndex = 88;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(687, 333);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(42, 19);
+            this.label33.TabIndex = 87;
+            this.label33.Text = "CEP:";
+            // 
+            // textBox16
+            // 
+            this.textBox16.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox16.Location = new System.Drawing.Point(735, 491);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(231, 26);
+            this.textBox16.TabIndex = 86;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(672, 493);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(57, 19);
+            this.label28.TabIndex = 85;
+            this.label28.Text = "Bairro:";
+            // 
+            // textBox17
+            // 
+            this.textBox17.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox17.Location = new System.Drawing.Point(438, 491);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(218, 26);
+            this.textBox17.TabIndex = 84;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(306, 493);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(126, 19);
+            this.label29.TabIndex = 83;
+            this.label29.Text = "Complemento:";
+            // 
+            // textBox18
+            // 
+            this.textBox18.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox18.Location = new System.Drawing.Point(101, 491);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(183, 26);
+            this.textBox18.TabIndex = 82;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(6, 493);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(76, 19);
+            this.label30.TabIndex = 81;
+            this.label30.Text = "Número:";
+            // 
+            // textBox19
+            // 
+            this.textBox19.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox19.Location = new System.Drawing.Point(101, 453);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(555, 26);
+            this.textBox19.TabIndex = 80;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(6, 455);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(87, 19);
+            this.label31.TabIndex = 79;
+            this.label31.Text = "Rua / Av. :";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(6, 419);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(157, 19);
+            this.label32.TabIndex = 78;
+            this.label32.Text = "Endereço da Obra:";
+            // 
+            // textBox15
+            // 
+            this.textBox15.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox15.Location = new System.Drawing.Point(735, 369);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(231, 26);
+            this.textBox15.TabIndex = 77;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(672, 371);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(57, 19);
+            this.label27.TabIndex = 76;
+            this.label27.Text = "Bairro:";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox14.Location = new System.Drawing.Point(438, 369);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(218, 26);
+            this.textBox14.TabIndex = 75;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(306, 371);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(126, 19);
+            this.label26.TabIndex = 74;
+            this.label26.Text = "Complemento:";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(101, 369);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(183, 26);
+            this.textBox9.TabIndex = 73;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(6, 371);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(76, 19);
+            this.label25.TabIndex = 72;
+            this.label25.Text = "Número:";
+            // 
+            // textBox13
+            // 
+            this.textBox13.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox13.Location = new System.Drawing.Point(101, 331);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(555, 26);
+            this.textBox13.TabIndex = 71;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(6, 333);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(87, 19);
+            this.label24.TabIndex = 70;
+            this.label24.Text = "Rua / Av. :";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(6, 297);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(132, 19);
+            this.label23.TabIndex = 68;
+            this.label23.Text = "Endereço Atual:";
             // 
             // button11
             // 
@@ -1211,9 +1887,9 @@ namespace TechTure
             // statusCliente
             // 
             this.statusCliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statusCliente.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusCliente.DefaultCellStyle = dataGridViewCellStyle8;
             this.statusCliente.HeaderText = "ETAPA";
             this.statusCliente.Items.AddRange(new object[] {
             "PLANTA-BAIXA",
@@ -1338,6 +2014,10 @@ namespace TechTure
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label48);
+            this.tabPage1.Controls.Add(this.label42);
+            this.tabPage1.Controls.Add(this.label41);
+            this.tabPage1.Controls.Add(this.label40);
             this.tabPage1.Controls.Add(this.pictureBox2);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
@@ -1346,6 +2026,58 @@ namespace TechTure
             this.tabPage1.TabIndex = 6;
             this.tabPage1.Text = "HOME";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label48
+            // 
+            this.label48.BackColor = System.Drawing.Color.White;
+            this.label48.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label48.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label48.Location = new System.Drawing.Point(3, 506);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(988, 35);
+            this.label48.TabIndex = 4;
+            this.label48.Text = "www.techture.com.br";
+            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label42
+            // 
+            this.label42.BackColor = System.Drawing.Color.White;
+            this.label42.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label42.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label42.Location = new System.Drawing.Point(3, 541);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(988, 35);
+            this.label42.TabIndex = 3;
+            this.label42.Text = "(19) 98765-4321";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label41
+            // 
+            this.label41.BackColor = System.Drawing.Color.White;
+            this.label41.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label41.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label41.Location = new System.Drawing.Point(3, 576);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(988, 35);
+            this.label41.TabIndex = 2;
+            this.label41.Text = "contato.tech@techture.com";
+            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label40
+            // 
+            this.label40.BackColor = System.Drawing.Color.White;
+            this.label40.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label40.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label40.Location = new System.Drawing.Point(3, 3);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(988, 50);
+            this.label40.TabIndex = 1;
+            this.label40.Text = "BEM VINDO AO TECHTURE, SEU SISTEMA PARA GERENCIAR PROJETOS.";
+            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox2
             // 
@@ -1360,322 +2092,354 @@ namespace TechTure
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // label23
+            // textBox32
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(6, 297);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(132, 19);
-            this.label23.TabIndex = 68;
-            this.label23.Text = "Endereço Atual:";
+            this.textBox32.Location = new System.Drawing.Point(205, 13);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(131, 23);
+            this.textBox32.TabIndex = 73;
             // 
-            // label24
+            // label53
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(6, 333);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(87, 19);
-            this.label24.TabIndex = 70;
-            this.label24.Text = "Rua / Av. :";
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.Location = new System.Drawing.Point(10, 13);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(189, 19);
+            this.label53.TabIndex = 71;
+            this.label53.Text = "Nome do Zoneamento:";
             // 
-            // textBox13
+            // dataGridView4
             // 
-            this.textBox13.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(101, 331);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(555, 26);
-            this.textBox13.TabIndex = 71;
+            this.dataGridView4.AllowUserToDeleteRows = false;
+            this.dataGridView4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(205)))), ((int)(((byte)(219)))));
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn12,
+            this.dataGridViewTextBoxColumn13,
+            this.dataGridViewTextBoxColumn14,
+            this.dataGridViewTextBoxColumn10,
+            this.Column4,
+            this.Column5,
+            this.dataGridViewLinkColumn1});
+            this.dataGridView4.Location = new System.Drawing.Point(10, 210);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.RowHeadersWidth = 51;
+            this.dataGridView4.Size = new System.Drawing.Size(964, 347);
+            this.dataGridView4.TabIndex = 78;
             // 
-            // textBox9
+            // textBox31
             // 
-            this.textBox9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(101, 369);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(183, 26);
-            this.textBox9.TabIndex = 73;
+            this.textBox31.Location = new System.Drawing.Point(577, 52);
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(122, 23);
+            this.textBox31.TabIndex = 84;
             // 
-            // label25
+            // label52
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(6, 371);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(76, 19);
-            this.label25.TabIndex = 72;
-            this.label25.Text = "Número:";
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.Location = new System.Drawing.Point(444, 52);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(129, 19);
+            this.label52.TabIndex = 83;
+            this.label52.Text = "Recuo Posterior:";
             // 
-            // textBox14
+            // textBox33
             // 
-            this.textBox14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(438, 369);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(218, 26);
-            this.textBox14.TabIndex = 75;
+            this.textBox33.Location = new System.Drawing.Point(336, 52);
+            this.textBox33.Name = "textBox33";
+            this.textBox33.Size = new System.Drawing.Size(95, 23);
+            this.textBox33.TabIndex = 82;
             // 
-            // label26
+            // label54
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(306, 371);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(126, 19);
-            this.label26.TabIndex = 74;
-            this.label26.Text = "Complemento:";
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(217, 52);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(118, 19);
+            this.label54.TabIndex = 81;
+            this.label54.Text = "Recuo Lateral:";
             // 
-            // textBox15
+            // textBox34
             // 
-            this.textBox15.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(735, 369);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(231, 26);
-            this.textBox15.TabIndex = 77;
+            this.textBox34.Location = new System.Drawing.Point(132, 51);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(62, 23);
+            this.textBox34.TabIndex = 80;
             // 
-            // label27
+            // label55
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(672, 371);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(57, 19);
-            this.label27.TabIndex = 76;
-            this.label27.Text = "Bairro:";
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(12, 52);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(118, 19);
+            this.label55.TabIndex = 79;
+            this.label55.Text = "Recuo Frontal:";
             // 
-            // textBox16
+            // textBox35
             // 
-            this.textBox16.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(735, 491);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(231, 26);
-            this.textBox16.TabIndex = 86;
+            this.textBox35.Location = new System.Drawing.Point(555, 13);
+            this.textBox35.Name = "textBox35";
+            this.textBox35.Size = new System.Drawing.Size(122, 23);
+            this.textBox35.TabIndex = 86;
             // 
-            // label28
+            // label56
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(672, 493);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(57, 19);
-            this.label28.TabIndex = 85;
-            this.label28.Text = "Bairro:";
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Location = new System.Drawing.Point(351, 13);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(198, 19);
+            this.label56.TabIndex = 85;
+            this.label56.Text = "% Área Verde Permitida:";
             // 
-            // textBox17
+            // textBox37
             // 
-            this.textBox17.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(438, 491);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(218, 26);
-            this.textBox17.TabIndex = 84;
+            this.textBox37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox37.Location = new System.Drawing.Point(17, 167);
+            this.textBox37.Name = "textBox37";
+            this.textBox37.Size = new System.Drawing.Size(321, 23);
+            this.textBox37.TabIndex = 93;
             // 
-            // label29
+            // label58
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(306, 493);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(126, 19);
-            this.label29.TabIndex = 83;
-            this.label29.Text = "Complemento:";
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.Location = new System.Drawing.Point(13, 145);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(181, 19);
+            this.label58.TabIndex = 92;
+            this.label58.Text = "PESQUISAR CONDOMÍNIO";
             // 
-            // textBox18
+            // button17
             // 
-            this.textBox18.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(101, 491);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(183, 26);
-            this.textBox18.TabIndex = 82;
+            this.button17.BackColor = System.Drawing.Color.Maroon;
+            this.button17.FlatAppearance.BorderSize = 0;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button17.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.ForeColor = System.Drawing.Color.White;
+            this.button17.Location = new System.Drawing.Point(336, 95);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(136, 30);
+            this.button17.TabIndex = 91;
+            this.button17.Text = "EXCLUIR";
+            this.button17.UseVisualStyleBackColor = false;
             // 
-            // label30
+            // button18
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(6, 493);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(76, 19);
-            this.label30.TabIndex = 81;
-            this.label30.Text = "Número:";
+            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.button18.FlatAppearance.BorderSize = 0;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button18.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.ForeColor = System.Drawing.Color.White;
+            this.button18.Location = new System.Drawing.Point(176, 95);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(136, 30);
+            this.button18.TabIndex = 90;
+            this.button18.Text = "EDITAR";
+            this.button18.UseVisualStyleBackColor = false;
             // 
-            // textBox19
+            // button19
             // 
-            this.textBox19.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(101, 453);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(555, 26);
-            this.textBox19.TabIndex = 80;
+            this.button19.BackColor = System.Drawing.Color.ForestGreen;
+            this.button19.FlatAppearance.BorderSize = 0;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button19.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button19.ForeColor = System.Drawing.Color.White;
+            this.button19.Location = new System.Drawing.Point(14, 95);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(136, 30);
+            this.button19.TabIndex = 89;
+            this.button19.Text = "ADICIONAR";
+            this.button19.UseVisualStyleBackColor = false;
             // 
-            // label31
+            // textBox36
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(6, 455);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(87, 19);
-            this.label31.TabIndex = 79;
-            this.label31.Text = "Rua / Av. :";
+            this.textBox36.Location = new System.Drawing.Point(743, 17);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.Size = new System.Drawing.Size(69, 23);
+            this.textBox36.TabIndex = 95;
             // 
-            // label32
+            // label57
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(6, 419);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(157, 19);
-            this.label32.TabIndex = 78;
-            this.label32.Text = "Endereço da Obra:";
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.Location = new System.Drawing.Point(694, 17);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(41, 19);
+            this.label57.TabIndex = 94;
+            this.label57.Text = "T.O.:";
             // 
-            // textBox20
+            // textBox38
             // 
-            this.textBox20.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.Location = new System.Drawing.Point(735, 329);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(231, 26);
-            this.textBox20.TabIndex = 88;
+            this.textBox38.Location = new System.Drawing.Point(882, 17);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(69, 23);
+            this.textBox38.TabIndex = 97;
             // 
-            // label33
+            // label59
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(687, 333);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(42, 19);
-            this.label33.TabIndex = 87;
-            this.label33.Text = "CEP:";
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.Location = new System.Drawing.Point(833, 17);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(45, 19);
+            this.label59.TabIndex = 96;
+            this.label59.Text = "C.A.:";
             // 
-            // textBox21
+            // textBox39
             // 
-            this.textBox21.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.Location = new System.Drawing.Point(735, 453);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(231, 26);
-            this.textBox21.TabIndex = 90;
+            this.textBox39.Location = new System.Drawing.Point(847, 51);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.Size = new System.Drawing.Size(104, 23);
+            this.textBox39.TabIndex = 99;
             // 
-            // label34
+            // label60
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(687, 457);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(42, 19);
-            this.label34.TabIndex = 89;
-            this.label34.Text = "CEP:";
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.Location = new System.Drawing.Point(712, 52);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(134, 19);
+            this.label60.TabIndex = 98;
+            this.label60.Text = "Núm. Máx. Pav.:";
             // 
-            // label35
+            // dataGridViewTextBoxColumn9
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(6, 163);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(100, 19);
-            this.label35.TabIndex = 91;
-            this.label35.Text = "Estado Civil:";
+            this.dataGridViewTextBoxColumn9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn9.HeaderText = "Zoneamento";
+            this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn9.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // comboBox5
+            // dataGridViewTextBoxColumn12
             // 
-            this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "MATERIAL DE CONSTRUÇÃO",
-            "ENCANADOR",
-            "ELETRICISTA",
-            "EMPREITEIRA",
-            "SERRALHERIA",
-            "MARCENARIA",
-            ""});
-            this.comboBox5.Location = new System.Drawing.Point(112, 163);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(209, 24);
-            this.comboBox5.TabIndex = 92;
+            this.dataGridViewTextBoxColumn12.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn12.HeaderText = "Recuo Frontal";
+            this.dataGridViewTextBoxColumn12.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
             // 
-            // comboBox6
+            // dataGridViewTextBoxColumn13
             // 
-            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "MATERIAL DE CONSTRUÇÃO",
-            "ENCANADOR",
-            "ELETRICISTA",
-            "EMPREITEIRA",
-            "SERRALHERIA",
-            "MARCENARIA",
-            ""});
-            this.comboBox6.Location = new System.Drawing.Point(458, 163);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(199, 24);
-            this.comboBox6.TabIndex = 94;
+            this.dataGridViewTextBoxColumn13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn13.HeaderText = "Recuo Lateral";
+            this.dataGridViewTextBoxColumn13.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
             // 
-            // label36
+            // dataGridViewTextBoxColumn14
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(343, 163);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(109, 19);
-            this.label36.TabIndex = 93;
-            this.label36.Text = "Possui Filhos?";
+            this.dataGridViewTextBoxColumn14.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn14.HeaderText = "Recuo Posterior";
+            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
             // 
-            // comboBox7
+            // dataGridViewTextBoxColumn10
             // 
-            this.comboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "MATERIAL DE CONSTRUÇÃO",
-            "ENCANADOR",
-            "ELETRICISTA",
-            "EMPREITEIRA",
-            "SERRALHERIA",
-            "MARCENARIA",
-            ""});
-            this.comboBox7.Location = new System.Drawing.Point(760, 163);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(206, 24);
-            this.comboBox7.TabIndex = 96;
+            this.dataGridViewTextBoxColumn10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn10.HeaderText = "Área Verde";
+            this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             // 
-            // label37
+            // Column4
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(672, 163);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(82, 19);
-            this.label37.TabIndex = 95;
-            this.label37.Text = "Quantos?";
+            this.Column4.HeaderText = "T.O";
+            this.Column4.Name = "Column4";
             // 
-            // textBox22
+            // Column5
             // 
-            this.textBox22.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.Location = new System.Drawing.Point(144, 207);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(822, 26);
-            this.textBox22.TabIndex = 98;
+            this.Column5.HeaderText = "C.A";
+            this.Column5.Name = "Column5";
             // 
-            // label38
+            // dataGridViewLinkColumn1
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(6, 209);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(132, 19);
-            this.label38.TabIndex = 97;
-            this.label38.Text = "Nome Cônjuge:";
+            this.dataGridViewLinkColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewLinkColumn1.HeaderText = "Ver Zoneamento";
+            this.dataGridViewLinkColumn1.Name = "dataGridViewLinkColumn1";
+            this.dataGridViewLinkColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewLinkColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
-            // textBox23
+            // label61
             // 
-            this.textBox23.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(144, 251);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(822, 26);
-            this.textBox23.TabIndex = 100;
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label61.Location = new System.Drawing.Point(501, 95);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(198, 19);
+            this.label61.TabIndex = 100;
+            this.label61.Text = "T.O.: Taxa de Ocupação";
             // 
-            // label39
+            // label62
             // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(6, 253);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(138, 19);
-            this.label39.TabIndex = 99;
-            this.label39.Text = "Nome dos Filhos:";
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label62.Location = new System.Drawing.Point(501, 126);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(292, 19);
+            this.label62.TabIndex = 101;
+            this.label62.Text = "C.A.: Coeficiente de Aproveitamento";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn4.HeaderText = "Condomínio";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewComboBoxColumn3
+            // 
+            this.dataGridViewComboBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewComboBoxColumn3.HeaderText = "Zoneamento";
+            this.dataGridViewComboBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewComboBoxColumn3.Name = "dataGridViewComboBoxColumn3";
+            this.dataGridViewComboBoxColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewComboBoxColumn3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn5.HeaderText = "Cidade";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.HeaderText = "Telefone";
+            this.Column3.Name = "Column3";
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn6.HeaderText = "Recuo Frontal";
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn7.HeaderText = "Recuo Lateral";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.HeaderText = "Recuo Posterior";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.HeaderText = "Ver Norma ";
+            this.Column2.Name = "Column2";
+            this.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // frmPrincipal
             // 
@@ -1705,6 +2469,13 @@ namespace TechTure
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tabPage5.ResumeLayout(false);
+            this.tabServico.ResumeLayout(false);
+            this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            this.tabCondominios.ResumeLayout(false);
+            this.tabCondominios.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabClientes.ResumeLayout(false);
             this.pageClientes.ResumeLayout(false);
@@ -1718,6 +2489,7 @@ namespace TechTure
             this.tabProjeto.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1855,6 +2627,73 @@ namespace TechTure
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.TabControl tabServico;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.TabPage tabCondominios;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.TextBox textBox38;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.TextBox textBox37;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewLinkColumn dataGridViewLinkColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewComboBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewLinkColumn Column2;
     }
 }
 

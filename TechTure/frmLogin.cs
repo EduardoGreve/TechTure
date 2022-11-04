@@ -19,7 +19,7 @@ namespace TechTure
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtLogin.Text == "" && txtSenha.Text == "")
+            if(txtLogin.Text == "" || txtSenha.Text == "")
             {
                 MessageBox.Show("Obrigatório preencher os campos Login e Senha", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -40,6 +40,18 @@ namespace TechTure
                 txtLogin.Focus();
             }
 
+        }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnRegistro_Click(object sender, EventArgs e)
+        {
+            frmCadastro cadastro = new frmCadastro();
+            cadastro.Show();
+            this.Hide();
         }
     }
 }
