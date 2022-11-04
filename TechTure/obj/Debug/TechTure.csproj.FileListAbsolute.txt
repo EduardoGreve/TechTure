@@ -20,3 +20,14 @@ G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj
 G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj\Debug\TechTure.csproj.CoreCompileInputs.cache
 G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj\Debug\TechTure.exe
 G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj\Debug\TechTure.pdb
+C:\Users\André\Desktop\Sistema TechTure\TechTure\bin\Debug\TechTure.exe.config
+C:\Users\André\Desktop\Sistema TechTure\TechTure\bin\Debug\TechTure.exe
+C:\Users\André\Desktop\Sistema TechTure\TechTure\bin\Debug\TechTure.pdb
+C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.csproj.AssemblyReference.cache
+C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.frmLogin.resources
+C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.frmPrincipal.resources
+C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.Properties.Resources.resources
+C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.csproj.GenerateResource.cache
+C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.csproj.CoreCompileInputs.cache
+C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.exe
+C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.pdb

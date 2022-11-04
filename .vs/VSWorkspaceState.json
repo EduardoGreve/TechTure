@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TechTure"
   ],
-  "SelectedNode": "\\TechTure.sln",
+  "SelectedNode": "\\TechTure\\frmPrincipal.cs",
   "PreviewInSolutionExplorer": false
 }
