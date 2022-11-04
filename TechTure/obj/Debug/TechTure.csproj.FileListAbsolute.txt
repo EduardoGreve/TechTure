@@ -9,3 +9,14 @@ C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.exe
 C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.pdb
 C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.frmLogin.resources
 C:\Users\eduar\Desktop\TechTure\TechTure\obj\Debug\TechTure.csproj.AssemblyReference.cache
+G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\bin\Debug\TechTure.exe.config
+G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\bin\Debug\TechTure.exe
+G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\bin\Debug\TechTure.pdb
+G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj\Debug\TechTure.csproj.AssemblyReference.cache
+G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj\Debug\TechTure.frmLogin.resources
+G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj\Debug\TechTure.frmPrincipal.resources
+G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj\Debug\TechTure.Properties.Resources.resources
+G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj\Debug\TechTure.csproj.GenerateResource.cache
+G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj\Debug\TechTure.csproj.CoreCompileInputs.cache
+G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj\Debug\TechTure.exe
+G:\Meu Drive\01_Programação\01_Projetos\TechTure\TechTure Sistema\TechTure\obj\Debug\TechTure.pdb
