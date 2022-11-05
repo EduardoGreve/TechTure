@@ -53,5 +53,7 @@ namespace TechTure
             cadastro.Show();
             this.Hide();
         }
+
+        
     }
 }
