@@ -31,4 +31,15 @@ C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.csproj.Core
 C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.exe
 C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.pdb
 C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.frmCadastro.resources
-C:\Users\André\Desktop\Sistema TechTure\TechTure\obj\Debug\TechTure.csproj.AssemblyReference.cache
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\bin\Debug\TechTure.exe.config
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\bin\Debug\TechTure.exe
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\bin\Debug\TechTure.pdb
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\obj\Debug\TechTure.csproj.AssemblyReference.cache
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\obj\Debug\TechTure.frmCadastro.resources
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\obj\Debug\TechTure.frmLogin.resources
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\obj\Debug\TechTure.frmPrincipal.resources
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\obj\Debug\TechTure.Properties.Resources.resources
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\obj\Debug\TechTure.csproj.GenerateResource.cache
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\obj\Debug\TechTure.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\obj\Debug\TechTure.exe
+C:\Users\eduar\Desktop\TechTure\TechTure\TechTure\obj\Debug\TechTure.pdb
