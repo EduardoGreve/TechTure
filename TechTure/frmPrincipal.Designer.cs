@@ -165,8 +165,6 @@ namespace TechTure
             this.label38 = new System.Windows.Forms.Label();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.label37 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.label36 = new System.Windows.Forms.Label();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label35 = new System.Windows.Forms.Label();
             this.textBox21 = new System.Windows.Forms.TextBox();
@@ -209,6 +207,56 @@ namespace TechTure
             this.label10 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
+            this.label88 = new System.Windows.Forms.Label();
+            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.checkBox23 = new System.Windows.Forms.CheckBox();
+            this.checkBox24 = new System.Windows.Forms.CheckBox();
+            this.checkBox25 = new System.Windows.Forms.CheckBox();
+            this.label87 = new System.Windows.Forms.Label();
+            this.checkBox20 = new System.Windows.Forms.CheckBox();
+            this.checkBox21 = new System.Windows.Forms.CheckBox();
+            this.checkBox22 = new System.Windows.Forms.CheckBox();
+            this.label86 = new System.Windows.Forms.Label();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.label85 = new System.Windows.Forms.Label();
+            this.checkBox19 = new System.Windows.Forms.CheckBox();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.checkBox17 = new System.Windows.Forms.CheckBox();
+            this.checkBox18 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.label84 = new System.Windows.Forms.Label();
+            this.label83 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.label81 = new System.Windows.Forms.Label();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label76 = new System.Windows.Forms.Label();
+            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.lblFamiliaBriefing = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.lblDataBriefing = new System.Windows.Forms.Label();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.lblNomeClienteBriefing = new System.Windows.Forms.Label();
             this.tabPage11 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.gridCliente = new System.Windows.Forms.DataGridView();
@@ -250,56 +298,8 @@ namespace TechTure
             this.label65 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.lblNomeClienteBriefing = new System.Windows.Forms.Label();
-            this.lblDataBriefing = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.lblFamiliaBriefing = new System.Windows.Forms.Label();
-            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
-            this.label78 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.label80 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.label81 = new System.Windows.Forms.Label();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label82 = new System.Windows.Forms.Label();
-            this.label83 = new System.Windows.Forms.Label();
-            this.label84 = new System.Windows.Forms.Label();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.label85 = new System.Windows.Forms.Label();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.label86 = new System.Windows.Forms.Label();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.label87 = new System.Windows.Forms.Label();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.label88 = new System.Windows.Forms.Label();
-            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage7.SuspendLayout();
@@ -323,15 +323,15 @@ namespace TechTure
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.pageCadastro.SuspendLayout();
             this.tabPage10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridCliente)).BeginInit();
             this.tabProjeto.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -1802,33 +1802,6 @@ namespace TechTure
             this.label37.TabIndex = 95;
             this.label37.Text = "Quantos?";
             // 
-            // comboBox6
-            // 
-            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "MATERIAL DE CONSTRUÇÃO",
-            "ENCANADOR",
-            "ELETRICISTA",
-            "EMPREITEIRA",
-            "SERRALHERIA",
-            "MARCENARIA",
-            ""});
-            this.comboBox6.Location = new System.Drawing.Point(458, 163);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(199, 24);
-            this.comboBox6.TabIndex = 94;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(343, 163);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(109, 19);
-            this.label36.TabIndex = 93;
-            this.label36.Text = "Possui Filhos?";
-            // 
             // comboBox5
             // 
             this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2300,6 +2273,602 @@ namespace TechTure
             this.tabPage10.TabIndex = 2;
             this.tabPage10.Text = "BRIEFING";
             this.tabPage10.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(398, 1835);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(125, 67);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 144;
+            this.pictureBox5.TabStop = false;
+            // 
+            // richTextBox9
+            // 
+            this.richTextBox9.Location = new System.Drawing.Point(10, 1629);
+            this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
+            this.richTextBox9.Size = new System.Drawing.Size(947, 151);
+            this.richTextBox9.TabIndex = 143;
+            this.richTextBox9.Text = "";
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label88.Location = new System.Drawing.Point(6, 1576);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(503, 38);
+            this.label88.TabIndex = 142;
+            this.label88.Text = "7 - Qual a melhor altura para o pé direito (acabado) da casa ? \r\nEspecifique por " +
+    "ambiente.";
+            // 
+            // textBox42
+            // 
+            this.textBox42.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox42.Location = new System.Drawing.Point(422, 1473);
+            this.textBox42.Name = "textBox42";
+            this.textBox42.Size = new System.Drawing.Size(292, 26);
+            this.textBox42.TabIndex = 141;
+            // 
+            // checkBox23
+            // 
+            this.checkBox23.AutoSize = true;
+            this.checkBox23.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox23.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox23.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox23.Location = new System.Drawing.Point(343, 1478);
+            this.checkBox23.Name = "checkBox23";
+            this.checkBox23.Size = new System.Drawing.Size(73, 21);
+            this.checkBox23.TabIndex = 140;
+            this.checkBox23.Text = "Outro...";
+            this.checkBox23.UseVisualStyleBackColor = true;
+            // 
+            // checkBox24
+            // 
+            this.checkBox24.AutoSize = true;
+            this.checkBox24.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox24.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox24.Location = new System.Drawing.Point(343, 1451);
+            this.checkBox24.Name = "checkBox24";
+            this.checkBox24.Size = new System.Drawing.Size(141, 21);
+            this.checkBox24.TabIndex = 139;
+            this.checkBox24.Text = "Madeira aparente";
+            this.checkBox24.UseVisualStyleBackColor = true;
+            // 
+            // checkBox25
+            // 
+            this.checkBox25.AutoSize = true;
+            this.checkBox25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox25.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox25.Location = new System.Drawing.Point(343, 1425);
+            this.checkBox25.Name = "checkBox25";
+            this.checkBox25.Size = new System.Drawing.Size(143, 21);
+            this.checkBox25.TabIndex = 138;
+            this.checkBox25.Text = "Telhado embutido";
+            this.checkBox25.UseVisualStyleBackColor = true;
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label87.Location = new System.Drawing.Point(314, 1392);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(400, 19);
+            this.label87.TabIndex = 137;
+            this.label87.Text = "6 - Qual tipo de cobertura mais agrada a família ?";
+            // 
+            // checkBox20
+            // 
+            this.checkBox20.AutoSize = true;
+            this.checkBox20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox20.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox20.Location = new System.Drawing.Point(34, 1478);
+            this.checkBox20.Name = "checkBox20";
+            this.checkBox20.Size = new System.Drawing.Size(168, 21);
+            this.checkBox20.TabIndex = 136;
+            this.checkBox20.Text = "Garagem subterrânea";
+            this.checkBox20.UseVisualStyleBackColor = true;
+            // 
+            // checkBox21
+            // 
+            this.checkBox21.AutoSize = true;
+            this.checkBox21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox21.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox21.Location = new System.Drawing.Point(34, 1451);
+            this.checkBox21.Name = "checkBox21";
+            this.checkBox21.Size = new System.Drawing.Size(132, 21);
+            this.checkBox21.TabIndex = 135;
+            this.checkBox21.Text = "Dois pavimentos";
+            this.checkBox21.UseVisualStyleBackColor = true;
+            // 
+            // checkBox22
+            // 
+            this.checkBox22.AutoSize = true;
+            this.checkBox22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox22.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox22.Location = new System.Drawing.Point(34, 1425);
+            this.checkBox22.Name = "checkBox22";
+            this.checkBox22.Size = new System.Drawing.Size(100, 21);
+            this.checkBox22.TabIndex = 134;
+            this.checkBox22.Text = "Casa térrea";
+            this.checkBox22.UseVisualStyleBackColor = true;
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label86.Location = new System.Drawing.Point(6, 1392);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(175, 19);
+            this.label86.TabIndex = 133;
+            this.label86.Text = "5 - A construção será:";
+            // 
+            // textBox41
+            // 
+            this.textBox41.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox41.Location = new System.Drawing.Point(34, 1304);
+            this.textBox41.Name = "textBox41";
+            this.textBox41.Size = new System.Drawing.Size(455, 26);
+            this.textBox41.TabIndex = 132;
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label85.Location = new System.Drawing.Point(6, 1282);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(358, 19);
+            this.label85.TabIndex = 131;
+            this.label85.Text = "4 - Qual estimativa de área a ser construida ?";
+            // 
+            // checkBox19
+            // 
+            this.checkBox19.AutoSize = true;
+            this.checkBox19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox19.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox19.Location = new System.Drawing.Point(34, 1233);
+            this.checkBox19.Name = "checkBox19";
+            this.checkBox19.Size = new System.Drawing.Size(111, 21);
+            this.checkBox19.TabIndex = 130;
+            this.checkBox19.Text = "Estilo Asiático";
+            this.checkBox19.UseVisualStyleBackColor = true;
+            // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox14.Location = new System.Drawing.Point(34, 1206);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(131, 21);
+            this.checkBox14.TabIndex = 129;
+            this.checkBox14.Text = "Estilo Americano";
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // checkBox15
+            // 
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox15.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox15.Location = new System.Drawing.Point(34, 1180);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(106, 21);
+            this.checkBox15.TabIndex = 128;
+            this.checkBox15.Text = "Estilo Rústico";
+            this.checkBox15.UseVisualStyleBackColor = true;
+            // 
+            // checkBox16
+            // 
+            this.checkBox16.AutoSize = true;
+            this.checkBox16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox16.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox16.Location = new System.Drawing.Point(34, 1154);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(242, 21);
+            this.checkBox16.TabIndex = 127;
+            this.checkBox16.Text = "Estilo Colonial - Casa da Fazenda";
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
+            // checkBox17
+            // 
+            this.checkBox17.AutoSize = true;
+            this.checkBox17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox17.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox17.Location = new System.Drawing.Point(34, 1128);
+            this.checkBox17.Name = "checkBox17";
+            this.checkBox17.Size = new System.Drawing.Size(241, 21);
+            this.checkBox17.TabIndex = 126;
+            this.checkBox17.Text = "Estilo Contemporânio Minimalista";
+            this.checkBox17.UseVisualStyleBackColor = true;
+            // 
+            // checkBox18
+            // 
+            this.checkBox18.AutoSize = true;
+            this.checkBox18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox18.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox18.Location = new System.Drawing.Point(34, 1102);
+            this.checkBox18.Name = "checkBox18";
+            this.checkBox18.Size = new System.Drawing.Size(165, 21);
+            this.checkBox18.TabIndex = 125;
+            this.checkBox18.Text = "Estilo Contemporânio";
+            this.checkBox18.UseVisualStyleBackColor = true;
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox9.Location = new System.Drawing.Point(34, 1075);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(118, 21);
+            this.checkBox9.TabIndex = 124;
+            this.checkBox9.Text = "Estilo Moderno";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox10.Location = new System.Drawing.Point(34, 1049);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(219, 21);
+            this.checkBox10.TabIndex = 123;
+            this.checkBox10.Text = "Estilo Tropical - Casa na praia,";
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox11.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox11.Location = new System.Drawing.Point(34, 1023);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(143, 21);
+            this.checkBox11.TabIndex = 122;
+            this.checkBox11.Text = "Estilo Escandinavo";
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox12.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox12.Location = new System.Drawing.Point(34, 997);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(141, 21);
+            this.checkBox12.TabIndex = 121;
+            this.checkBox12.Text = "Estilo Mediterrânio";
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox13.Location = new System.Drawing.Point(34, 971);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(113, 21);
+            this.checkBox13.TabIndex = 120;
+            this.checkBox13.Text = "Estilo Classico";
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label84.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label84.Location = new System.Drawing.Point(33, 936);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(589, 19);
+            this.label84.TabIndex = 119;
+            this.label84.Text = "Para responder esta pergunta, consultar nosso Guia de Estilos Arquitetônicos";
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label83.Location = new System.Drawing.Point(6, 917);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(411, 19);
+            this.label83.TabIndex = 118;
+            this.label83.Text = "3 - Qual estilo arquitetônico agrada mais a família ?";
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label82.Location = new System.Drawing.Point(33, 881);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(251, 19);
+            this.label82.TabIndex = 117;
+            this.label82.Text = "Sobre o projeto da Casa nova...";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(398, 781);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(125, 67);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 116;
+            this.pictureBox4.TabStop = false;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox6.Location = new System.Drawing.Point(37, 721);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(232, 21);
+            this.checkBox6.TabIndex = 115;
+            this.checkBox6.Text = "Quase nunca recebemos visitas;";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox7.Location = new System.Drawing.Point(37, 695);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(195, 21);
+            this.checkBox7.TabIndex = 114;
+            this.checkBox7.Text = "Amamos ter a casa cheia;";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox8.Location = new System.Drawing.Point(37, 669);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(369, 21);
+            this.checkBox8.TabIndex = 113;
+            this.checkBox8.Text = "Somos intimistas, recebemos poucos amigos por vez;";
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.Location = new System.Drawing.Point(6, 634);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(356, 19);
+            this.label81.TabIndex = 112;
+            this.label81.Text = "2 - Como você descreve dinâmica familiar ?";
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox5.Location = new System.Drawing.Point(37, 560);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(111, 21);
+            this.checkBox5.TabIndex = 111;
+            this.checkBox5.Text = "Modernidade";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox4.Location = new System.Drawing.Point(37, 534);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(102, 21);
+            this.checkBox4.TabIndex = 110;
+            this.checkBox4.Text = "Privacidade";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3.Location = new System.Drawing.Point(37, 508);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(88, 21);
+            this.checkBox3.TabIndex = 109;
+            this.checkBox3.Text = "Elegância";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.Location = new System.Drawing.Point(37, 482);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(68, 21);
+            this.checkBox2.TabIndex = 108;
+            this.checkBox2.Text = "Frescor";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(37, 456);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(100, 21);
+            this.checkBox1.TabIndex = 107;
+            this.checkBox1.Text = "Aconchego";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(398, 334);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(125, 67);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 106;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label80.Location = new System.Drawing.Point(6, 423);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(398, 19);
+            this.label80.TabIndex = 105;
+            this.label80.Text = "1 - Qual a sensação imagina ter em seu novo lar ?";
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label79.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label79.Location = new System.Drawing.Point(6, 254);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(161, 57);
+            this.label79.TabIndex = 104;
+            this.label79.Text = "TEM ANIMAIS DE \r\nESTIMAÇÃO\r\nQUAIS ? QUANTOS ?";
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label78.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label78.Location = new System.Drawing.Point(6, 202);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(123, 38);
+            this.label78.TabIndex = 103;
+            this.label78.Text = "A FAMÍLIA TEM\r\nALGUM HOBBIE";
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label77.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label77.Location = new System.Drawing.Point(6, 153);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(147, 38);
+            this.label77.TabIndex = 102;
+            this.label77.Text = "QUAL IDADE E \r\nNOME DOS FILHOS";
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label76.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label76.Location = new System.Drawing.Point(6, 100);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(147, 38);
+            this.label76.TabIndex = 101;
+            this.label76.Text = "BREVE DESCRIÇÃO\r\nDA FAMÍLIA";
+            // 
+            // richTextBox8
+            // 
+            this.richTextBox8.Location = new System.Drawing.Point(179, 81);
+            this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
+            this.richTextBox8.Size = new System.Drawing.Size(616, 230);
+            this.richTextBox8.TabIndex = 67;
+            this.richTextBox8.Text = "";
+            // 
+            // lblFamiliaBriefing
+            // 
+            this.lblFamiliaBriefing.AutoSize = true;
+            this.lblFamiliaBriefing.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFamiliaBriefing.Location = new System.Drawing.Point(6, 81);
+            this.lblFamiliaBriefing.Name = "lblFamiliaBriefing";
+            this.lblFamiliaBriefing.Size = new System.Drawing.Size(134, 19);
+            this.lblFamiliaBriefing.TabIndex = 66;
+            this.lblFamiliaBriefing.Text = "Sobre a família: ";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(690, 23);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(105, 23);
+            this.dateTimePicker1.TabIndex = 65;
+            // 
+            // lblDataBriefing
+            // 
+            this.lblDataBriefing.AutoSize = true;
+            this.lblDataBriefing.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDataBriefing.Location = new System.Drawing.Point(634, 25);
+            this.lblDataBriefing.Name = "lblDataBriefing";
+            this.lblDataBriefing.Size = new System.Drawing.Size(50, 19);
+            this.lblDataBriefing.TabIndex = 64;
+            this.lblDataBriefing.Text = "Data:";
+            // 
+            // textBox40
+            // 
+            this.textBox40.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox40.Location = new System.Drawing.Point(131, 23);
+            this.textBox40.Name = "textBox40";
+            this.textBox40.Size = new System.Drawing.Size(455, 26);
+            this.textBox40.TabIndex = 63;
+            // 
+            // lblNomeClienteBriefing
+            // 
+            this.lblNomeClienteBriefing.AutoSize = true;
+            this.lblNomeClienteBriefing.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeClienteBriefing.Location = new System.Drawing.Point(6, 25);
+            this.lblNomeClienteBriefing.Name = "lblNomeClienteBriefing";
+            this.lblNomeClienteBriefing.Size = new System.Drawing.Size(119, 19);
+            this.lblNomeClienteBriefing.TabIndex = 62;
+            this.lblNomeClienteBriefing.Text = "Nome Cliente:";
             // 
             // tabPage11
             // 
@@ -2811,601 +3380,32 @@ namespace TechTure
             this.label63.TabIndex = 44;
             this.label63.Text = "Linguagem:";
             // 
-            // textBox40
-            // 
-            this.textBox40.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox40.Location = new System.Drawing.Point(131, 23);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(455, 26);
-            this.textBox40.TabIndex = 63;
-            // 
-            // lblNomeClienteBriefing
-            // 
-            this.lblNomeClienteBriefing.AutoSize = true;
-            this.lblNomeClienteBriefing.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeClienteBriefing.Location = new System.Drawing.Point(6, 25);
-            this.lblNomeClienteBriefing.Name = "lblNomeClienteBriefing";
-            this.lblNomeClienteBriefing.Size = new System.Drawing.Size(119, 19);
-            this.lblNomeClienteBriefing.TabIndex = 62;
-            this.lblNomeClienteBriefing.Text = "Nome Cliente:";
-            // 
-            // lblDataBriefing
-            // 
-            this.lblDataBriefing.AutoSize = true;
-            this.lblDataBriefing.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDataBriefing.Location = new System.Drawing.Point(634, 25);
-            this.lblDataBriefing.Name = "lblDataBriefing";
-            this.lblDataBriefing.Size = new System.Drawing.Size(50, 19);
-            this.lblDataBriefing.TabIndex = 64;
-            this.lblDataBriefing.Text = "Data:";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(690, 23);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(105, 23);
-            this.dateTimePicker1.TabIndex = 65;
-            // 
-            // lblFamiliaBriefing
-            // 
-            this.lblFamiliaBriefing.AutoSize = true;
-            this.lblFamiliaBriefing.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFamiliaBriefing.Location = new System.Drawing.Point(6, 81);
-            this.lblFamiliaBriefing.Name = "lblFamiliaBriefing";
-            this.lblFamiliaBriefing.Size = new System.Drawing.Size(134, 19);
-            this.lblFamiliaBriefing.TabIndex = 66;
-            this.lblFamiliaBriefing.Text = "Sobre a família: ";
-            // 
-            // richTextBox8
-            // 
-            this.richTextBox8.Location = new System.Drawing.Point(179, 81);
-            this.richTextBox8.Name = "richTextBox8";
-            this.richTextBox8.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
-            this.richTextBox8.Size = new System.Drawing.Size(616, 230);
-            this.richTextBox8.TabIndex = 67;
-            this.richTextBox8.Text = "";
-            // 
-            // label76
-            // 
-            this.label76.AutoSize = true;
-            this.label76.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label76.Location = new System.Drawing.Point(6, 100);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(147, 38);
-            this.label76.TabIndex = 101;
-            this.label76.Text = "BREVE DESCRIÇÃO\r\nDA FAMÍLIA";
-            // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label77.Location = new System.Drawing.Point(6, 153);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(147, 38);
-            this.label77.TabIndex = 102;
-            this.label77.Text = "QUAL IDADE E \r\nNOME DOS FILHOS";
-            // 
-            // label78
-            // 
-            this.label78.AutoSize = true;
-            this.label78.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label78.Location = new System.Drawing.Point(6, 202);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(123, 38);
-            this.label78.TabIndex = 103;
-            this.label78.Text = "A FAMÍLIA TEM\r\nALGUM HOBBIE";
-            // 
-            // label79
-            // 
-            this.label79.AutoSize = true;
-            this.label79.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label79.Location = new System.Drawing.Point(6, 254);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(161, 57);
-            this.label79.TabIndex = 104;
-            this.label79.Text = "TEM ANIMAIS DE \r\nESTIMAÇÃO\r\nQUAIS ? QUANTOS ?";
-            // 
-            // label80
-            // 
-            this.label80.AutoSize = true;
-            this.label80.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label80.Location = new System.Drawing.Point(6, 423);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(398, 19);
-            this.label80.TabIndex = 105;
-            this.label80.Text = "1 - Qual a sensação imagina ter em seu novo lar ?";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(398, 334);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(125, 67);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 106;
-            this.pictureBox3.TabStop = false;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(37, 456);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(100, 21);
-            this.checkBox1.TabIndex = 107;
-            this.checkBox1.Text = "Aconchego";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(37, 482);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(68, 21);
-            this.checkBox2.TabIndex = 108;
-            this.checkBox2.Text = "Frescor";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(37, 508);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(88, 21);
-            this.checkBox3.TabIndex = 109;
-            this.checkBox3.Text = "Elegância";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(37, 534);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(102, 21);
-            this.checkBox4.TabIndex = 110;
-            this.checkBox4.Text = "Privacidade";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(37, 560);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(111, 21);
-            this.checkBox5.TabIndex = 111;
-            this.checkBox5.Text = "Modernidade";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // label81
-            // 
-            this.label81.AutoSize = true;
-            this.label81.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.Location = new System.Drawing.Point(6, 634);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(356, 19);
-            this.label81.TabIndex = 112;
-            this.label81.Text = "2 - Como você descreve dinâmica familiar ?";
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(37, 721);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(232, 21);
-            this.checkBox6.TabIndex = 115;
-            this.checkBox6.Text = "Quase nunca recebemos visitas;";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(37, 695);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(195, 21);
-            this.checkBox7.TabIndex = 114;
-            this.checkBox7.Text = "Amamos ter a casa cheia;";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(37, 669);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(369, 21);
-            this.checkBox8.TabIndex = 113;
-            this.checkBox8.Text = "Somos intimistas, recebemos poucos amigos por vez;";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(398, 781);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(125, 67);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 116;
-            this.pictureBox4.TabStop = false;
-            // 
-            // label82
-            // 
-            this.label82.AutoSize = true;
-            this.label82.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label82.Location = new System.Drawing.Point(33, 881);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(251, 19);
-            this.label82.TabIndex = 117;
-            this.label82.Text = "Sobre o projeto da Casa nova...";
-            // 
-            // label83
-            // 
-            this.label83.AutoSize = true;
-            this.label83.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label83.Location = new System.Drawing.Point(6, 917);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(411, 19);
-            this.label83.TabIndex = 118;
-            this.label83.Text = "3 - Qual estilo arquitetônico agrada mais a família ?";
-            // 
-            // label84
-            // 
-            this.label84.AutoSize = true;
-            this.label84.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label84.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label84.Location = new System.Drawing.Point(33, 936);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(589, 19);
-            this.label84.TabIndex = 119;
-            this.label84.Text = "Para responder esta pergunta, consultar nosso Guia de Estilos Arquitetônicos";
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox9.Location = new System.Drawing.Point(34, 1075);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(118, 21);
-            this.checkBox9.TabIndex = 124;
-            this.checkBox9.Text = "Estilo Moderno";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox10.Location = new System.Drawing.Point(34, 1049);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(219, 21);
-            this.checkBox10.TabIndex = 123;
-            this.checkBox10.Text = "Estilo Tropical - Casa na praia,";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox11.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox11.Location = new System.Drawing.Point(34, 1023);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(143, 21);
-            this.checkBox11.TabIndex = 122;
-            this.checkBox11.Text = "Estilo Escandinavo";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox12.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox12.Location = new System.Drawing.Point(34, 997);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(141, 21);
-            this.checkBox12.TabIndex = 121;
-            this.checkBox12.Text = "Estilo Mediterrânio";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox13.Location = new System.Drawing.Point(34, 971);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(113, 21);
-            this.checkBox13.TabIndex = 120;
-            this.checkBox13.Text = "Estilo Classico";
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox14.Location = new System.Drawing.Point(34, 1206);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(131, 21);
-            this.checkBox14.TabIndex = 129;
-            this.checkBox14.Text = "Estilo Americano";
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox15.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox15.Location = new System.Drawing.Point(34, 1180);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(106, 21);
-            this.checkBox15.TabIndex = 128;
-            this.checkBox15.Text = "Estilo Rústico";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox16.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox16.Location = new System.Drawing.Point(34, 1154);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(242, 21);
-            this.checkBox16.TabIndex = 127;
-            this.checkBox16.Text = "Estilo Colonial - Casa da Fazenda";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox17.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox17.Location = new System.Drawing.Point(34, 1128);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(241, 21);
-            this.checkBox17.TabIndex = 126;
-            this.checkBox17.Text = "Estilo Contemporânio Minimalista";
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox18.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox18.Location = new System.Drawing.Point(34, 1102);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(165, 21);
-            this.checkBox18.TabIndex = 125;
-            this.checkBox18.Text = "Estilo Contemporânio";
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox19.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox19.Location = new System.Drawing.Point(34, 1233);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(111, 21);
-            this.checkBox19.TabIndex = 130;
-            this.checkBox19.Text = "Estilo Asiático";
-            this.checkBox19.UseVisualStyleBackColor = true;
-            // 
-            // label85
-            // 
-            this.label85.AutoSize = true;
-            this.label85.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label85.Location = new System.Drawing.Point(6, 1282);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(358, 19);
-            this.label85.TabIndex = 131;
-            this.label85.Text = "4 - Qual estimativa de área a ser construida ?";
-            // 
-            // textBox41
-            // 
-            this.textBox41.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox41.Location = new System.Drawing.Point(34, 1304);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(455, 26);
-            this.textBox41.TabIndex = 132;
-            // 
-            // label86
-            // 
-            this.label86.AutoSize = true;
-            this.label86.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label86.Location = new System.Drawing.Point(6, 1392);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(175, 19);
-            this.label86.TabIndex = 133;
-            this.label86.Text = "5 - A construção será:";
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox20.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox20.Location = new System.Drawing.Point(34, 1478);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(168, 21);
-            this.checkBox20.TabIndex = 136;
-            this.checkBox20.Text = "Garagem subterrânea";
-            this.checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // checkBox21
-            // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox21.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox21.Location = new System.Drawing.Point(34, 1451);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(132, 21);
-            this.checkBox21.TabIndex = 135;
-            this.checkBox21.Text = "Dois pavimentos";
-            this.checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox22.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox22.Location = new System.Drawing.Point(34, 1425);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(100, 21);
-            this.checkBox22.TabIndex = 134;
-            this.checkBox22.Text = "Casa térrea";
-            this.checkBox22.UseVisualStyleBackColor = true;
-            // 
-            // label87
-            // 
-            this.label87.AutoSize = true;
-            this.label87.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label87.Location = new System.Drawing.Point(314, 1392);
-            this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(400, 19);
-            this.label87.TabIndex = 137;
-            this.label87.Text = "6 - Qual tipo de cobertura mais agrada a família ?";
-            // 
-            // checkBox23
-            // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox23.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox23.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox23.Location = new System.Drawing.Point(343, 1478);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(73, 21);
-            this.checkBox23.TabIndex = 140;
-            this.checkBox23.Text = "Outro...";
-            this.checkBox23.UseVisualStyleBackColor = true;
-            // 
-            // checkBox24
-            // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox24.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox24.Location = new System.Drawing.Point(343, 1451);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(141, 21);
-            this.checkBox24.TabIndex = 139;
-            this.checkBox24.Text = "Madeira aparente";
-            this.checkBox24.UseVisualStyleBackColor = true;
-            // 
-            // checkBox25
-            // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.checkBox25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox25.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox25.Location = new System.Drawing.Point(343, 1425);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(143, 21);
-            this.checkBox25.TabIndex = 138;
-            this.checkBox25.Text = "Telhado embutido";
-            this.checkBox25.UseVisualStyleBackColor = true;
-            // 
-            // textBox42
-            // 
-            this.textBox42.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox42.Location = new System.Drawing.Point(422, 1473);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(292, 26);
-            this.textBox42.TabIndex = 141;
-            // 
-            // label88
-            // 
-            this.label88.AutoSize = true;
-            this.label88.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label88.Location = new System.Drawing.Point(6, 1576);
-            this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(503, 38);
-            this.label88.TabIndex = 142;
-            this.label88.Text = "7 - Qual a melhor altura para o pé direito (acabado) da casa ? \r\nEspecifique por " +
-    "ambiente.";
-            // 
-            // richTextBox9
-            // 
-            this.richTextBox9.Location = new System.Drawing.Point(10, 1629);
-            this.richTextBox9.Name = "richTextBox9";
-            this.richTextBox9.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
-            this.richTextBox9.Size = new System.Drawing.Size(947, 151);
-            this.richTextBox9.TabIndex = 143;
-            this.richTextBox9.Text = "";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(398, 1835);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(125, 67);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 144;
-            this.pictureBox5.TabStop = false;
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(343, 163);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(109, 19);
+            this.label36.TabIndex = 93;
+            this.label36.Text = "Possui Filhos?";
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "MATERIAL DE CONSTRUÇÃO",
+            "ENCANADOR",
+            "ELETRICISTA",
+            "EMPREITEIRA",
+            "SERRALHERIA",
+            "MARCENARIA",
+            ""});
+            this.comboBox6.Location = new System.Drawing.Point(458, 163);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(199, 24);
+            this.comboBox6.TabIndex = 94;
             // 
             // frmPrincipal
             // 
@@ -3453,6 +3453,9 @@ namespace TechTure
             this.pageCadastro.PerformLayout();
             this.tabPage10.ResumeLayout(false);
             this.tabPage10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridCliente)).EndInit();
@@ -3461,9 +3464,6 @@ namespace TechTure
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3597,8 +3597,6 @@ namespace TechTure
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.ComboBox comboBox7;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.Label label36;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.TabControl tabServico;
@@ -3738,6 +3736,8 @@ namespace TechTure
         private System.Windows.Forms.CheckBox checkBox7;
         private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.Label label36;
     }
 }
 

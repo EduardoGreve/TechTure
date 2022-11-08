@@ -57,6 +57,7 @@ namespace TechTure
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(547, 23);
             this.txtLogin.TabIndex = 25;
+            this.txtLogin.TextChanged += new System.EventHandler(this.txtLogin_TextChanged);
             // 
             // label1
             // 
@@ -68,6 +69,7 @@ namespace TechTure
             this.label1.Size = new System.Drawing.Size(143, 19);
             this.label1.TabIndex = 23;
             this.label1.Text = "NOME COMPLETO";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -79,6 +81,7 @@ namespace TechTure
             this.label3.Size = new System.Drawing.Size(254, 25);
             this.label3.TabIndex = 29;
             this.label3.Text = "CADASTRO DE USUÁRIO";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox1
             // 
@@ -90,6 +93,7 @@ namespace TechTure
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(547, 23);
             this.textBox1.TabIndex = 31;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label4
             // 
@@ -101,6 +105,7 @@ namespace TechTure
             this.label4.Size = new System.Drawing.Size(149, 19);
             this.label4.TabIndex = 30;
             this.label4.Text = "NOME DE USUÁRIO";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox2
             // 
@@ -112,6 +117,7 @@ namespace TechTure
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(547, 23);
             this.textBox2.TabIndex = 33;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label2
             // 
@@ -123,6 +129,7 @@ namespace TechTure
             this.label2.Size = new System.Drawing.Size(60, 19);
             this.label2.TabIndex = 32;
             this.label2.Text = "SENHA";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox3
             // 
@@ -134,6 +141,7 @@ namespace TechTure
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(547, 23);
             this.textBox3.TabIndex = 35;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label5
             // 
@@ -145,6 +153,7 @@ namespace TechTure
             this.label5.Size = new System.Drawing.Size(208, 19);
             this.label5.TabIndex = 34;
             this.label5.Text = "CONFIRMAÇÃO DE SENHA";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // textBox4
             // 
@@ -156,6 +165,7 @@ namespace TechTure
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(547, 23);
             this.textBox4.TabIndex = 37;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label6
             // 
@@ -167,6 +177,7 @@ namespace TechTure
             this.label6.Size = new System.Drawing.Size(61, 19);
             this.label6.TabIndex = 36;
             this.label6.Text = "E-MAIL";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // pictureBox1
             // 
@@ -177,6 +188,7 @@ namespace TechTure
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 38;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnRegistro
             // 
@@ -190,6 +202,7 @@ namespace TechTure
             this.btnRegistro.TabIndex = 39;
             this.btnRegistro.Text = "REGISTRE-SE";
             this.btnRegistro.UseVisualStyleBackColor = false;
+            this.btnRegistro.Click += new System.EventHandler(this.btnRegistro_Click);
             // 
             // btnFechar
             // 
@@ -245,6 +258,7 @@ namespace TechTure
             this.Name = "frmCadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCadastro";
+            this.Load += new System.EventHandler(this.frmCadastro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
